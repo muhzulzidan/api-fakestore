@@ -50,8 +50,6 @@ export default function App() {
     await deleteProduct(id);
   };
 
-  // console.log(products, "products")
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 text-gray-900 py-8 px-2 md:px-0">
       <div className="mx-auto bg-white rounded-xl shadow-lg p-8">
